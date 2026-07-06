@@ -1,4 +1,75 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+header{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+.Header{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color:black;
+    width:100%;
+    height: 100px;
+}
+.Banner_principal{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.Productos_destacados{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    .productos{
+        width: 100%;
+        height: 35%;
+    }
+    .producto{   
+        background-color: black;
+        color: aliceblue;
+        border-radius: 5px;
+        width: 400px;
+        height: 400px;
+        margin: 3%;
+    }
+}
+.Beneficios{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: aliceblue;
+}
+.Opiniones_de_clientes{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+}
 img{
-    width: 10%;
-    height: 10%;
+    width: 15%;
+    height: 100%;
+}
+button{
+    margin: 5%;
+    padding: 1%;
+}
+.lugar{
+    width: 50%;
+    height: 50%;
+}
+.descuento{
+    position: relative;
+    position: absolute;
 }
